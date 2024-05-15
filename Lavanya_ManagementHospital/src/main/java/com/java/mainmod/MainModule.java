@@ -77,21 +77,9 @@ public class MainModule {
             }
         
         
-            Patient patient = new Patient(123, "Lava", "A", "1990-01-01", "Female", "1234567890");
+            
 
             
-            int PatientId = 123; // Example patient ID
-
-            try {
-                
-                List<Appointment> appointments = patient.getAppointmentsForPatient(PatientId);
-                
-              
-                
-                }
-             catch (PatientNumberNotFoundException e) {
-                System.out.println("Patient number not found: " + e.getMessage());
-            }
         }
         }
     }
